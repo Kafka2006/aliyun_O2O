@@ -1,6 +1,8 @@
-﻿# aliyun_O2O
+# aliyun_O2O
 
 [天池新人实战赛o2o优惠券使用预测](https://tianchi.aliyun.com/competition/entrance/231593/information)
+
+[详细完成记录与总结](https://cjwing.xyz/2025/04/09/my_o2o/)
 
 主要参考了 [FNo0的baseline](https://github.com/FNo0/o2o_dataset)与[wepe的特征工程](https://github.com/wepe/O2O-Coupon-Usage-Forecast)。
 
@@ -25,9 +27,9 @@
 - 用户是否重复领券
 - 用户最近\最远一次领券据考察日的时间间隔（考察日取领券日期最大值）
 - 是否第一次\最后一次领券
-- 用户该日之前\之后领券数~~出现问题，准备重写）~~
+- 用户该日之前\之后领券数 ~~（出现问题，准备重写）~~
 - 用户领取了多少优惠券
-- 距离用户上一次领取的时间间隔~~出现问题，准备重写）~~
+- 距离用户上一次领取的时间间隔 ~~（出现问题，准备重写）~~
 - 商户被领取了多少优惠券
 - 商户发行了多少种优惠券
 - 上旬\中旬\下旬领券数
